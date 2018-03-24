@@ -1,6 +1,7 @@
 .jumbotron img {
     width: 180px;
     border: 4px solid #333;
+   background-image: url(gambar/wp1843442-vape-wallpapers.jpg);
     }
 
 
@@ -15,11 +16,18 @@
     border: 4px solid #111;
 }
 
-
-
-.entot{
-    background-color: darkgray;
+.moba {
+    color: lightslategrey;
 }
+
+hr {
+    width: 700px;
+    height: 25px;
+    color: lightslategray;
+}
+
+
+
 
 .footer{
     color: white;
@@ -27,4 +35,10 @@
     min-height: 50px;
     padding: 15px;
    
+}
+
+body {
+    background-image: url(gambar/wp1843442-vape-wallpapers.jpg);
+    background-size: 1500px 1000px;
+    background-position: bottom;
 }
