@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+
+
+
+#gambar1 {
+        width: 500px;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+#gambar2 {
+    width: 100px;
+    height: auto;
+}
+
+#gambar3 {
+    width: 100px;
+    height: auto
+}
+
+#gambar4 {
+    width: 100px;
+    height: auto
+}
+      
+
+.atas {
+    padding: 20px;
+}
+
+.tengah {
+    padding-top: 100px;
+}
+
+table {
+     background-color: dimgrey;
+    border-radius: 20px; !important;
+    color: white;
+    
+}
+
+#tb1 {
+    
+     background-color: dimgrey;
+    border-radius: 50px; !important;
+    color: white;
+}
