@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    padding: 100px;
 }
 
 
@@ -12,27 +13,39 @@ body{
 }
 
 #gambar2 {
-    width: 100px;
-    height: auto;
+    width: 150px;
+    height: 150;
 }
 
 #gambar3 {
-    width: 100px;
-    height: auto
+    width: 150px;
+    height: 150;
 }
 
 #gambar4 {
-    width: 100px;
-    height: auto
+    width: 150px;
+    height: 150;
+}
+
+#gambar5 {
+    width: 150px;
+    height: 150;
 }
       
 
-.atas {
-    padding: 20px;
-}
 
-.tengah {
+
+.atas{
+      background-color: white;
     padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.tengah {
+   
+    background-color: white;
+    padding-top: 100px;
+   
 }
 
 table {
@@ -42,9 +55,5 @@ table {
     
 }
 
-#tb1 {
-    
-     background-color: dimgrey;
-    border-radius: 50px; !important;
-    color: white;
-}
+
+
