@@ -1,9 +1,10 @@
 #profil {
-    width: 550px;
-    height: 350px;
-    border-radius: 8px;
-    padding: 15px;
-    -webkit-filter: grayscale(100%);filter: grayscale(100%);
+    width: 300px;
+    height: auto;
+    border-radius: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
     
 }
 
@@ -42,4 +43,84 @@ td {
 }
 #tb1{
     color: white;
+    
+}
+#tb2{
+    margin-bottom: 135px;
+    
+}
+
+.navbar-why-you-so-small > .navbar-collapse {
+	background-color: #ff3333;
+}
+
+.progress-bar {
+	text-align: left;
+	white-space: nowrap;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+
+.progress-bar > .progress-type {
+	padding-left: 10px;
+}
+
+.progress-meter {
+	min-height: 15px;
+	border-bottom: 2px solid rgb(160, 160, 160);
+}
+
+.progress-meter > .meter {
+	position: relative;
+	float: left;
+	min-height: 30px;
+	border-width: 0px;
+	border-style: solid;
+	border-color: rgb(160, 160, 160);
+}
+
+.progress-meter > .meter-left {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter-right {
+	float: right;
+	border-right-width: 2px;
+}
+
+.progress-meter > .meter-right:last-child {
+	border-left-width: 2px;
+}
+
+.progress-meter > .meter > .meter-text {
+	position: absolute;
+	display: inline-block;
+	bottom: -20px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 0.85em;
+	color: rgb(160, 160, 160);
+	text-align: left;
+}
+
+.progress-meter > .meter.meter-right > .meter-text {
+	text-align: right;
+    
+}
+
+.progress-type {
+    color: black;
+}
+.progress {
+    height: 30px;
+}
+
+.progress-bar {
+    background-color: #ff3333;
+}
+
+.sr-only {
+    text-align: right;
 }

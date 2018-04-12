@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="gayacv.css" rel="stylesheet">
+      <link href="js/cv.js">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,9 +24,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="gambar/PROFIL.jpg" id="profil">
+                    <img src="gambar/IMG_20180413_023429.jpg" id="profil">
                     <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>PERSONAL IDENITY</h2></div>
+                    <div class="panel-body"><h2><strong>PERSONAL IDENITY</strong></h2></div>
                     </div>
                     <table>
                         <tr>
@@ -61,7 +62,7 @@
                     
                     </table>
                     <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>EDUCATION</h2></div>
+                    <div class="panel-body"><h2><strong>EDUCATION </strong></h2></div>
                     </div>
                     <tr>
                         <td colspan="2"><h3>2013</h3></td>
@@ -95,42 +96,77 @@
                     </tr>
                     
                     <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>CERTIFICATES</h2></div>
+                    <div class="panel-body"><h2><strong>CERTIFICATES </strong></h2></div>
                     </div>
-                    <P>Asian Africa Carnival 2014 as Volunteer</P>
-                
+                    <P>Asian Africa Carnival 2015 as Volunteer</P>
+                    <P>as Tumenggung</P>
+                    <P>Formation Srilanka</P>
+                    <P>SRK - 0023 / AAC / IV / 2015</P>
                     <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>LANGUAGE</h2>
+                    <div class="panel-body"><h2><strong>LANGUAGE</strong></h2>
                     </div>
                     </div>
                     <table>
                     <tr>
+                        <!--
                         <td>Indonesia</td>
-                        
+                       
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td>
-                        </tr>
+                        </tr> -->
+                        <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;" data-toggle="tooltip" data-placement="top" title="indonesia">
+                        <span class="sr-only">100%</span>
+                        <span class="progress-type"><strong>Indonesia</strong></span>
+                        </div>
+                        </div>
+                       
                     <tr>
+                        <!--
                         <td>English</td>
                         
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td> 
-                    </tr>
+                    </tr> -->
+                         <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;" data-toggle="tooltip" data-placement="top" title="indonesia">
+                        <span class="sr-only">70%</span>
+                        <span class="progress-type"><strong>English</strong></span>
+                        </div>
+                        </div>
                     <tr>
+                        <!--
                         <td>Deutch</td>
                         
                         <td><img src="gambar/star.png" id="rating"></td>
                         <td><img src="gambar/star.png" id="rating"></td>     
-                    </tr>
+                    </tr> -->
+                         <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;" data-toggle="tooltip" data-placement="top" title="indonesia">
+                        <span class="sr-only">30%</span>
+                        <span class="progress-type"><strong>Deutch</strong></span>
+                        </div>
+                        </div>
+                        <tr>
+                        <div class="progress-meter">
+				<div class="meter meter-left" style="width: 25%;"><span class="meter-text">NOOB</span></div>
+				<div class="meter meter-left" style="width: 25%;"><span class="meter-text">NOT BAD</span></div>
+    			<div class="meter meter-right" style="width: 20%;"><span class="meter-text">GGWP!</span></div>
+				<div class="meter meter-right" style="width: 30%;"><span class="meter-text">GG</span></div>
+			</div>
+                        </tr>
+                        
                     </table>
                     
                 </div>
                  <div class="col-md-6">
                      <center>
+                        <table id="tb2">
+                            <tr>
                      <h1>Rezza Jaya Mukti</h1>
                          <table id="tb1">
                          <tr>
@@ -146,16 +182,19 @@
                             <td>+6289 602 086 456</td>
                         </tr>
                         </table>
+                                </tr>
+                             </table>
                         </center>
+                        
                      
-                     <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>EXPERIENCE</h2>
+                     <div class="panel panel-default" style="background-color: #ff3333"  id="panel">
+                    <div class="panel-body"><h2><strong>EXPERIENCE</strong></h2>
                     </div>
                     </div>
                      <H1>NGEWS</H1>
                      
                      <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>SKILLS</h2>
+                    <div class="panel-body"><h2><strong>SKILLS</strong></h2>
                     </div>
                     </div>
                      <table>
@@ -223,7 +262,7 @@
                        </table>
                      
                       <div class="panel panel-default" style="background-color: #ff3333" id="panel">
-                    <div class="panel-body"><h2>INTEREST</h2>
+                    <div class="panel-body"><h2><strong>INTEREST</strong></h2>
                     </div>
                     </div>
                      <table>
